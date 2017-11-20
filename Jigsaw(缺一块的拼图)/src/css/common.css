@@ -1,0 +1,22 @@
+body, div, header, aside, footer, section, article, figure, nav, menu, table, ul, ol, li, button, p, a, dl, dd, tr, td, th, pre, form, h1, h2, h3, h4, h5, h6, input, textarea {margin: 0;padding: 0; }
+html{ height:100%; }
+body{ font-size:0.28rem;position:relative;font-family:'Microsoft YaHei',Helvetica;height:auto;min-height:100%;  height:100%; color:#000; word-break:break-word; }
+ul,li{ list-style:none; }
+.left{ float:left; }
+.right{ float:right; }
+.clearfix {*zoom:1;}
+.clearfix:after {clear:both;content:".";display:block;font-size:0;height:0;overflow:hidden;visibility:hidden;}
+a,a:active{ text-decoration:none; color:#000;}
+div.outCont{ height:100%; background:#ededed; position:relative; overflow:hidden; }
+header,aside,footer,section,article,figure,nav,menu{ display:block; }
+input,button,textarea{-webkit-appearance: none; padding:0;margin:0; border:none; background:none; border-radius:0;-webkit-border-radius:0;-moz-border-radius:0;}
+.image{ vertical-align: top; display: block; width: 100%; height: auto; }
+cite{font-style: normal;}
+body{ height: 100%;  }
+.hide{ display: none!important; }
+/****加载*****/
+#loadding{ width:100%; height:100%;background:#fff; font-size:0.24rem;  font-family:Arial;text-align:center; position:fixed; left:0; top:0; z-index:1005; color:#333; }
+/*#loadPer{ width:100%; height:26%;text-align:center; position:absolute; top:37%; left:0;background-image: url(../images/loadding.gif) ; background-repeat:no-repeat; background-position: center top; background-size:  auto 75%;}*/
+#loadPer span{ position: absolute; left:0; width: 100%; text-align: center; color:#6b2233; font-size:14px; bottom: 18%; height: 25%; line-height: 2; }
+
+
